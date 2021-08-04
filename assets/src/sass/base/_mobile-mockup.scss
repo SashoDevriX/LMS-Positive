@@ -1,0 +1,43 @@
+.outer {
+    display: block;
+    width: 100%;
+
+    .body-mobile {
+        position: relative;
+        box-sizing:border-box;
+        max-width: 375px;
+        height: 812px;
+        margin: 2em auto;
+        overflow: hidden;
+
+        .mobile-overlay {
+            position: absolute;
+            z-index: 1000;
+            pointer-events: none;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .site-content-wrapper {
+        position: absolute;
+        left: 1.5em;
+        top: 4em;
+        width: calc( 100% - 2em);
+        height: calc( 100% - 5.5em);
+        box-sizing: border-box;
+        overflow-y: scroll;
+        z-index: 1;
+    }
+
+    .site-content{
+        position:relative;
+        // background:#f1f1f1;
+        user-select: none;
+        cursor:pointer;
+        box-sizing: border-box;
+        padding:0 1em;
+    }
+}
