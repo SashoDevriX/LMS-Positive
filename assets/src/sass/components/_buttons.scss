@@ -1,0 +1,16 @@
+.button{
+
+
+    &-main{
+        background: linear-gradient(180deg, #535CE9 0%, #2921D8 100%);
+        box-shadow: 0px 15px 34px -10px rgba(41, 33, 216, 0.64);
+        border-radius: 6px;
+    }
+
+    &-medium{
+        color: $color-base;
+        padding: 0.75em 1.675em;
+        line-height: 1.5;
+        border-radius: 0.375em;
+    }
+}

@@ -1,0 +1,23 @@
+.bg-blob {
+    position: absolute;
+    width: 439px;
+    height: 439px;
+    left: -170px;
+    top: 533px;
+
+    background: rgba(182, 225, 239, 0.6);
+    filter: blur(224px);
+}
+
+
+.image{
+    &-fullwidth{
+        position: relative;
+        width:100%;
+    }
+
+    img{
+        display:block;
+        width:100%;height:auto;
+    }
+}

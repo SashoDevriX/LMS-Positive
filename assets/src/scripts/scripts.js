@@ -1,4 +1,27 @@
 document.addEventListener('DOMContentLoaded',() => {
+	manageScroll();
+	manageNav();
+});
+
+
+let manageNav = () => {
+
+	let navButton = document.querySelector('#nav-button');
+	let siteContent = document.querySelector('.site-content');
+
+	navButton.addEventListener('click',function(e) {
+		if (siteContent.classList.contains('nav-active')){
+			siteContent.classList.remove('nav-active');
+		}
+		else{
+			siteContent.classList.add('nav-active');
+		}
+	});
+
+}
+
+
+let manageScroll = () => {
 	let initialOffset = 0;
 	let initialMouseOffset;
 	let isScrolling = false;
@@ -18,4 +41,4 @@ document.addEventListener('DOMContentLoaded',() => {
 			siteContent.scrollTop = initialOffset + (initialMouseOffset - e.clientY);
 		}
 	});
-});
+}

@@ -4,14 +4,9 @@
  */
 .section-fullwidth {
 	$border-color: #ddd;
-	$section-padding: 80px;
 
-	padding: #{$section-padding} 0;
 	position: relative;
 
-	@media (min-width: $breakpoint-small) {
-		padding: #{$section-padding} 0;
-	}
 
 	// Default modifiers
 	&-border-bottom {

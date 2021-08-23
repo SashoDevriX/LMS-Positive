@@ -40,6 +40,8 @@ $fa-font-path: "../fonts";
 
 
 @import "base/mobile-mockup";
+@import "base/container";
+@import "components/header";
 
 
 // If there is anything specific for a page it should be in this folder
@@ -48,6 +50,7 @@ $fa-font-path: "../fonts";
 // @import "pages/search";
 // @import "pages/archive";
 // @import "pages/page";
+@import "pages/homepage";
 
 // Comment out what you don't need
 // ----------------------------------------------------------------------------
