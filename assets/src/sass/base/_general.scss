@@ -10,6 +10,7 @@ html {
 *:before,
 *:after {
 	box-sizing: inherit;
+	user-select: none;
 }
 
 // Add margin-top to body tag when admin-bar is visible.

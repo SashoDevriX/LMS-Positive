@@ -1,0 +1,41 @@
+.log-in{
+
+
+
+    .image-fullwidth{
+        margin-top: 1em;
+    }
+
+    .icons{
+        margin-bottom: 1.5em;
+    }
+
+    .button {
+        display: inline-block;
+        margin: 0 auto;
+        margin-top: 1em;
+        margin-bottom: 2em;
+    }
+
+    .bg-blob-1 {
+        position: absolute;
+        width: 439px;
+        height: 439px;
+        left: 180px;
+        top: 133px;
+    
+        background: rgba(182, 225, 239, 0.5);
+        filter: blur(224px);
+    }
+
+    .bg-blob-2 {
+        position: absolute;
+        width: 439px;
+        height: 439px;
+        left: -170px;
+        top: 533px;
+    
+        background: rgba(182, 225, 239, 0.6);
+        filter: blur(224px);
+    }
+}

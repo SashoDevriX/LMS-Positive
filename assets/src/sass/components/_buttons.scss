@@ -13,4 +13,14 @@
         line-height: 1.5;
         border-radius: 0.375em;
     }
+
+    &-fullwidth{
+        width:100%;
+        color: #fff;
+        padding-top: 0.75em;
+        padding-bottom: 0.75em;
+        line-height: 1.5;
+        border-radius: 0.375em;
+        text-align: center;
+    }
 }

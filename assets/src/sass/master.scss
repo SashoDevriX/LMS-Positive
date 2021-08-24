@@ -42,6 +42,7 @@ $fa-font-path: "../fonts";
 @import "base/mobile-mockup";
 @import "base/container";
 @import "components/header";
+@import "components/item";
 
 
 // If there is anything specific for a page it should be in this folder
@@ -51,10 +52,13 @@ $fa-font-path: "../fonts";
 // @import "pages/archive";
 // @import "pages/page";
 @import "pages/homepage";
+@import "pages/videos";
+@import "pages/single-video";
+@import "pages/log-in";
 
 // Comment out what you don't need
 // ----------------------------------------------------------------------------
-// @import "prebuilds/flex-grid.scss";
+@import "prebuilds/flex-grid.scss";
 // @import "prebuilds/section-general.scss";
 // @import "prebuilds/section-heading.scss";
 // @import "prebuilds/section-halfsplit.scss";

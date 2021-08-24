@@ -19,46 +19,120 @@
         <div class="body-mobile">
 
             <div class="site-content-wrapper">
+                <?php include 'components/header.php'; ?>
+                <div class="videos">
 
-                <div class="site-content">
+                    <div class="site-content">
 
-                    <div class="bg-blob"></div>
+                        <div class="bg-blob"></div>
 
-                    <?php include 'components/header.php'; ?>
-
-                    <nav class="site-nav">
-                        <ul class="list-navigation">
-                            <li class="list-item"></li>
-                        </ul>
-                    </nav>
-
-                    <section class="section-fullwidth">
-                        <div class="homepage">
-
-                            <div class="image image-fullwidth">
-                                <img draggable="false" src="assets/dist/images/Saly-1.png" alt="">
-                            </div>
+                        <section class="section-fullwidth">
 
                             <div class="container container-center-text container-extra-padding">
 
-                                
 
-                                <div class="content-body">
+                                <div class="content-body content-body-header content-body-center-text">
                                     <h2 class="content-title">
-                                        Positive Vibes
+                                        Choose from thousands of positive videos:
                                     </h2>
-                                    <p class="content-summary">
-                                        Online learning management system for positive thinkers
-                                    </p>
-
-                                    <a href="#" class="button button-medium button-main">Get started</a>
                                 </div>
 
+
+
+
                             </div>
-                        </div>
 
-                    </section>
+                            <div class="container container-center-text">
+                                <div class="flex-grid-wrapper">
+                                    <div class="flex-grid col-2">
 
+                                        <div class="grid-item">
+                                            <div class="content-body">
+                                                <a href="/single-video">
+                                                    <h3 class="content-title">The natural positive thinker</h3>
+                                                    <div class="content-image">
+                                                        <img draggable="false" src="/assets/dist/images/Saly-9.png" alt="">
+                                                    </div>
+                                                    <div class="content-arrow">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-item">
+                                            <div class="content-body">
+                                                <a href="/single-video">
+                                                    <h3 class="content-title">The optimist guide</h3>
+                                                    <div class="content-image">
+                                                        <img draggable="false" src="/assets/dist/images/Saly-7.png" alt="">
+                                                    </div>
+                                                    <div class="content-arrow">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-item">
+                                            <div class="content-body">
+                                                <a href="/single-video">
+                                                    <h3 class="content-title">Think outside the box</h3>
+                                                    <div class="content-image">
+                                                        <img draggable="false" src="/assets/dist/images/Saly-3.png" alt="">
+                                                    </div>
+                                                    <div class="content-arrow">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-item">
+                                            <div class="content-body">
+                                                <a href="/single-video">
+                                                    <h3 class="content-title">Enjoy your life to the fullest</h3>
+                                                    <div class="content-image">
+                                                        <img draggable="false" src="/assets/dist/images/Sally-4.png" alt="">
+                                                    </div>
+                                                    <div class="content-arrow">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-item">
+                                            <div class="content-body">
+                                                <a href="/single-video">
+                                                    <h3 class="content-title">Trust me - I am cool</h3>
+                                                    <div class="content-image">
+                                                        <img draggable="false" src="/assets/dist/images/trust-me.png" alt="">
+                                                    </div>
+                                                    <div class="content-arrow">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                        <div class="grid-item">
+                                            <div class="content-body">
+                                                <a href="/single-video">
+                                                    <h3 class="content-title">Climbing the stairs of success</h3>
+                                                    <div class="content-image">
+                                                        <img draggable="false" src="/assets/dist/images/climbing.png" alt="">
+                                                    </div>
+                                                    <div class="content-arrow">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </section>
+
+                    </div>
                 </div>
             </div>
 

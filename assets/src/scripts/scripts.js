@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded',() => {
 let manageNav = () => {
 
 	let navButton = document.querySelector('#nav-button');
-	let siteContent = document.querySelector('.site-content');
+	let siteContent = document.querySelector('.site-content-wrapper');
 
 	navButton.addEventListener('click',function(e) {
 		if (siteContent.classList.contains('nav-active')){
@@ -34,6 +34,13 @@ let manageScroll = () => {
 	});
 	document.body.addEventListener('mouseup',(e) => {
 		isScrolling = false;
+	});
+
+	//If user has scrolled more than 10px, disable click
+	document.body.addEventListener('click', (e) => {
+		if (Math.abs(initialMouseOffset - e.clientY) > 10){
+			e.preventDefault();
+		}
 	});
 
 	document.body.addEventListener('mousemove',(e) => {

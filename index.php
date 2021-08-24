@@ -19,21 +19,14 @@
         <div class="body-mobile">
 
             <div class="site-content-wrapper">
+                <?php include 'components/header.php'; ?>
+                <div class="homepage">
 
-                <div class="site-content">
+                    <div class="site-content">
 
-                    <div class="bg-blob"></div>
+                        <div class="bg-blob"></div>
 
-                    <?php include 'components/header.php'; ?>
-
-                    <nav class="site-nav">
-                        <ul class="list-navigation">
-                            <li class="list-item"></li>
-                        </ul>
-                    </nav>
-
-                    <section class="section-fullwidth">
-                        <div class="homepage">
+                        <section class="section-fullwidth">
 
                             <div class="image image-fullwidth">
                                 <img draggable="false" src="assets/dist/images/Saly-1.png" alt="">
@@ -41,7 +34,7 @@
 
                             <div class="container container-center-text container-extra-padding">
 
-                                
+
 
                                 <div class="content-body">
                                     <h2 class="content-title">
@@ -51,14 +44,14 @@
                                         Online learning management system for positive thinkers
                                     </p>
 
-                                    <a href="#" class="button button-medium button-main">Get started</a>
+                                    <a href="/videos" class="button button-medium button-main">Get started</a>
                                 </div>
 
                             </div>
-                        </div>
 
-                    </section>
+                        </section>
 
+                    </div>
                 </div>
             </div>
 
